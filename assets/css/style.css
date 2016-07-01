@@ -1,5 +1,6 @@
 
 /*TAG STYLING-ALLHTML*/
+/*THIS IS FOR TAG STYLING ACROSS ALL HTML FILES*/
 body{
 	margin: 0;
 	padding: 0;
@@ -13,6 +14,7 @@ h1{
 	font-weight:bold;
 }	
 
+
 a{
 	text-decoration: none;
 	color:grey;
@@ -21,7 +23,9 @@ a{
 
 p{
 	color:grey;
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding:20px;
+	line-height: 150%;
 }
 
 h1,h2,h3{
@@ -32,9 +36,10 @@ h1,h2,h3{
 
 
 
+
 /*TAG STYLING-FORM*/
+/*THIS IS FOR TAG STYLING WITHIN FORMS IN THE HTML FILES*/
 textarea{
-/*	resize:none;*/
 	width:460px;
 	height:300px;
 }
@@ -63,10 +68,11 @@ button{
 
 /*NAVBAR*/
 .navbar{
+	background-color: white;
 	margin-top:0px;
 	margin-left: 0px;
 	margin-bottom:0px;
-	background-color: white;
+	padding-bottom: 5px;
 	height:71px;
 	width:100%;
 	padding-bottom: 5px;
@@ -77,22 +83,22 @@ button{
 	background-color: #4aaaa5;
 	color: #ffffff;
 	float:left;
-	margin-left:60px;	
 	margin-top:0px;
+	margin-left:60px;	
 	padding:26px;
 
 }
 
 .navlist{
-	float:right;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	padding: 10px;
-	margin-right: 40px;
+	float:right;
 	margin-top: 20px;
+	margin-right: 40px;
+	padding: 10px;
 }
 
 
-/*MAINSECTION-ABOUTME AND FORM*/
+/*MAINSECTION-ABOUTME*/
 
 .mainsection{
 	width: 650px;
@@ -110,62 +116,139 @@ button{
 	height:200px;
 	width:200px;
 	float:left;
-	margin-right: 10px;
+	margin-right: 15px;
+	margin-top:25px;
 }
 
 
-/*MAINSECTON-PORTFOLIO*/
 
-.first{
+/*MAINSECTION-PORTFOLIO*/
+
+.portfolioimage1{
 	float:left;
-	width:250px;
-	margin:30px;
+	margin-right:20px;
 }
 
-.second{
+
+.portfolioimage2{
 	float:left;
-	width:250px;
-	margin:30px;
 }
 
-.third{
+.portfolioimage3{
 	float:left;
-	width:250px;
-	margin:30px;
+	margin-top:20px;
+	margin-right:20px;
 }
 
-.fourth{
+.portfolioimage4{
 	float:left;
-	width:250px;
-	margin:30px;
+	margin-top:20px;
 }
 
-.fifth{
+.portfolioimage5{
 	float:left;
-	width:250px;
-	margin:30px;
+	margin-top:20px;
+	margin-right:20px;
 }
 
-.sixth{
-	float:left;
-	width:250px;
-	margin:30px;
-}
-
-.portfoliolabel{
+.label1{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:lighter;
+	font-size: 20px;
+	text-align: center;
 	background-color: #4aaaa5;
     color: #ffffff;
-    padding: 19px;
-    left: 70px;
-    top: 281px;
-    position:inherit;
-    width: 212px;
+    width: 247px;
+    height:20px;
+  	margin-top:110px;
+    margin-left:0px;
+    padding: 26px;
+    position:absolute;
+    float:left;
+    z-index: 10;
+}
+
+.label2{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:lighter;
+	font-size: 20px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 247px;
+    height:20px;
+    margin-top:110px;
+  	margin-left:320px;
+    padding: 26px;
+    position:absolute;
+    float:left;
+    z-index: 10;
+
+}
+
+
+
+.label3{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:lighter;
+	font-size: 20px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 247px;
+    height:20px;
+    margin-top:330px;
+    margin-left:0px;
+    padding: 26px;
+    width: 247px;
+    height:20px;
+    position:absolute;
+    float:left;
+    z-index: 10;
+
+}
+
+
+.label4{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:lighter;
+	font-size: 20px;
     text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top:330px;
+    margin-left:320px;
+    padding: 26px;
+    width: 247px;
+    height:20px;
+    position:absolute;
+    float:left;
+    z-index: 10;
+}
+
+
+
+.label5{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:lighter;
+ 	text-align: center;
+    font-size: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 26px;
+    margin-top:551px;
+    margin-left:0px;
+    position:absolute;
+    float:left;
+    width: 247px;
+    height:20px;
+    z-index: 10;
 }
 
 
 
 /*SIDEBAR*/
+
 .sidebar{
 	width:270px;
 	margin-left:20px;
@@ -176,12 +259,17 @@ button{
 
 }
 
+.githublogo{
+	height:50px;
+	width:50px;
+}
+
 .linkedinlogo{
 	height:50px;
 	width:50px;
 }
 
-.githublogo{
+.stackoverflowlogo{
 	height:50px;
 	width:50px;
 }
@@ -208,6 +296,7 @@ button{
 	font-weight:normal;
 	color:grey;
 	padding:25px;
+	font-size:12px;
 }	
 
 
